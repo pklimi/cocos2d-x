@@ -81,6 +81,7 @@ class SetEnvVar(object):
     LINUX_CHECK_FILES = [ '.bashrc' ]
     ZSH_CHECK_FILES = ['.zshrc' ]
     RE_FORMAT = r'^export[ \t]+%s=(.+)'
+    Re_fomrat
 
     def __init__(self):
         self.need_backup = True
